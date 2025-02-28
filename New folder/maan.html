@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maan - Jordan</title>
+    <link rel="stylesheet" href="amman.css">
+</head>
+<body>
+    <nav>
+        <a href="jordan.html"><h6>Home</h6></a>
+        <a href="amman.html"><h6>Amman</h6></a>
+        <a href="alaqabah.html"><h6>Al Aqabah</h6></a>
+        <a href="maan.html"><h6>Maan</h6></a>
+        <a href="altaflah.html"><h6>Al Tafelah</h6></a>
+        <a href="alkarak.html"><h6>Al Karak</h6></a>
+        <a href="azzarqa.html"><h6>Zarqa</h6></a>
+        <a href="alsalt.html"><h6>Al Salt</h6></a>
+        <a href="almafraq.html"><h6>Al Mafraq</h6></a>
+        <a href="irbad.html"><h6>Irbid</h6></a>
+        <a href="ajloun.html"><h6>Ajloun</h6></a>
+        <a href="jarash.html"><h6>Jarash</h6></a>
+        <a href="balqa.html"><h6>Balqa</h6></a>
+        <a href="madaba.html"><h6>Madaba</h6></a>
+    </nav>
+
+    <h1 class="main-title">Explore Maan - The Southern Jewel of Jordan</h1>
+
+    <div class="cards-container">
+        <!-- قلعة الشوبك -->
+        <div class="card">
+            <img src="shbk.jpg" alt="Shobak Castle">
+            <h2>Shobak Castle</h2>
+            <p>A Crusader castle with breathtaking views and rich history.</p>
+            <div class="links">
+                <a href="" target="_blank">hotel</a>
+                <a href="" target="_blank">restaurant</a>
+            </div>
+        </div>
+
+        <!-- البتراء -->
+        <div class="card">
+            <img src="ptr.jpg" alt="Petra">
+            <h2>Petra</h2>
+            <p>The Rose City, one of the New Seven Wonders of the World.</p>
+            <div class="links">
+                <a href="" target="_blank">hotel</a>
+                <a href="" target="_blank">restaurant</a>
+            </div>
+        </div>
+
+        <!-- وادي رم -->
+        <div class="card">
+            <img src="Rum.jpg" alt="Wadi Rum">
+            <h2>Wadi Rum</h2>
+            <p>The Valley of the Moon, a stunning desert landscape.</p>
+            <div class="links">
+                <a href="" target="_blank">hotel</a>
+                <a href="" target="_blank">restaurant</a>
+            </div>
+        </div>
+
+        <!-- قصر البنت -->
+        <div class="card">
+            <img src="qasrBint.jpg" alt="Qasr Al-Bint">
+            <h2>Qasr Al-Bint</h2>
+            <p>An ancient Nabatean temple in Petra.</p>
+            <div class="links">
+                <a href="" target="_blank">hotel</a>
+                <a href="" target="_blank">restaurant</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const nav = document.querySelector("nav");
+
+            menuToggle.addEventListener("click", function () {
+                nav.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>
