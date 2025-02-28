@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tourism in Jordan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+  
+    <nav>
+        <a href="jordan.html"><h6>Home</h6></a>
+        <a href="amman.html"><h6>Amman</h6></a>
+        <a href="alaqabah.html"><h6>Al Aqabah</h6></a>
+        <a href="maan.html"><h6>Maan</h6></a>
+        <a href="altaflah.html"><h6>Al Tafelah</h6></a>
+        <a href="alkarak.html"><h6>Al Karak</h6></a>
+        <a href="azzarqa.html"><h6>Zarqa</h6></a>
+        <a href="alsalt.html"><h6>Al Salt</h6></a>
+        <a href="almafraq.html"><h6>Al Mafraq</h6></a>
+        <a href="irbad.html"><h6>Irbid</h6></a>
+        <a href="ajloun.html"><h6>Ajloun</h6></a>
+        <a href="jarash.html"><h6>Jarash</h6></a>
+        <a href="balqa.html"><h6>Balqa</h6></a>
+        <a href="madaba.html"><h6>Madaba</h6></a>
+    </nav>
+
+    
+    <h1 class="main-title">Introduction to the Kings of Jordan</h1>
+
+    
+    <div class="buttons-container">
+        <h1>Introduction to the King of jordan</h1>
+        <button class="custom-btn" onclick="showText(this)">
+            <img src="m1.jpg" alt="m1">
+            <span class="btn-text">King Abdullah I - founder of the Hashemite Kingdom of Jordan
+                After his success in defending Arab East Jerusalem and the West Bank during the Arab-Israeli War in 1948, King Abdullah began regularly attending Al-Aqsa Mosque in Jerusalem to perform Friday prayers. On July 20, 1951, he was martyred while performing Friday prayers there with his grandson Al-Hussein</span>
+        </button>
+
+        <button class="custom-btn" onclick="showText(this)">
+            <img src="m2.jpg" alt="m2">
+            <span class="btn-text">King Talal bin Abdullah, second king of Jordan</span>
+        </button>
+
+        <button class="custom-btn" onclick="showText(this)">
+            <img src="m3.jpg" alt="m3">
+            <span class="btn-text">Al-Hussein bin Talal completed his eighteen lunar years on May 2, 1953. He assumed his constitutional powers, inaugurating a new phase in the modern history of Jordan, which lasted forty-seven years (1952-1999) under the slogan that embodied his philosophy and approach to governance.</span>
+        </button>
+
+        <button class="custom-btn" onclick="showText(this)">
+            <img src="m4.jpg" alt="m4">
+            <span class="btn-text">His Majesty King Abdullah II bin Al Hussein, may God protect and protect him His Majesty assumed his constitutional powers as King of the Hashemite Kingdom of Jordan on February 7, 1999, the day of the death of his father, His Majesty King Hussein bin Talal, may God rest his soul.</span>
+        </button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const nav = document.querySelector("nav");
+
+            menuToggle.addEventListener("click", function () {
+                nav.classList.toggle("active");
+            });
+        });
+
+        function showText(button) {
+            button.classList.toggle("show-text");
+        }
+    </script>
+
+</body>
+</html>
